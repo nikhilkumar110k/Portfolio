@@ -1,0 +1,42 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+.gradient-background{
+  background: linear-gradient(300deg,#00bfff,#ff4c68,#ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 5s ease infinite;
+}
+@keyframes gradient-animation{
+ 0%{
+   background-position: 0% 50%;
+ }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+.video{
+  background-image: url("images.mp4");
+}
+.section2{
+  background-color: black;
+  background-image: url("websitesection2.jpeg");
+}
+.height{
+  height: 30rem;
+}
+.coloursec1{
+  background-color: blue;
+}
+.colourseclast{
+  background-color:yellow;
+}
+.justifycenter{
+  justify-content: center;
+}
+.gradient-background-contactme{
+  background: linear-gradient(300deg,#00FFFF,#7FFFD4,#FEBE10);
+  background-size: 180% 180%;
+  animation: gradient-animation 5s ease infinite;
+}
